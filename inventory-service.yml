@@ -8,5 +8,4 @@ spring:
     properties:
       hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
     hibernate:
-      ddl-auto: create
-    generate-dll: true
+      ddl-auto: update
